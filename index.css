@@ -1,0 +1,284 @@
+nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 10px; 
+}
+.search{
+    margin-left: 40px;
+}
+.buy{
+    margin-left: 40px;
+}
+.btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    background: #FF7A50;
+    border: none;
+    margin-left: 150px;
+}
+.btn1{
+    margin-top: 40px;
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding: 14px 28px;
+background: #FF7A50;
+border: none;
+border-radius: 8px;
+}
+
+.guy{
+    width: 100%;
+    margin-top: 20px;
+}
+.one{
+    margin-top: 160px;
+}
+
+.one h1 span{
+    color: #FF7A50;
+}
+
+.one div{
+    display: flex;
+    align-items: center;
+}
+
+.one button{
+    width: 163px;
+}
+.open{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    gap: 20px;
+    box-shadow: 1px 1px 3px gray;
+    border: none;
+}
+.open:hover{
+    background: #FF7A50;
+}
+.buttons{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 40px;
+    gap: 10px;
+}
+.buttons div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.buttons div img{
+    margin-left: 20px;
+}
+.buttons div p{
+    color: black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.big-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+.num1{
+    box-shadow: 2px 2px 5px grey;
+    /* width: 100%; */
+    width: 208px;
+    height: 279px;
+}
+.cls1{
+    text-align: center;
+    margin: 20px;
+}
+.cls2{
+    text-align: center;
+    margin-top: 50px;
+}
+.alis{
+    width: 50%;
+ margin-left: 50px;
+}
+.info{
+    margin-top: 12px;
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: center;
+color: #041A3F;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.kirish{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px 21px;
+    background: #FF7A50;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+}
+    .al span{
+        font-size: 36px;
+line-height: 50px;
+text-transform: capitalize;
+color: #FF7A50;
+    } 
+    .inforum{
+        margin-top: 200px;
+    }
+    
+.bir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}   
+.ikki{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}  
+.btn2{
+    font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+padding: 21px 12px;
+background: #FF7A50;
+border-radius: 5px;
+border: none;
+} 
+.app{
+    margin-left: 30px;
+}
+.clock{
+    display: flex;
+    margin-top: 20px;
+}
+.pq{
+    font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #363853;
+}
+.mavzu{
+font-weight: 500;
+font-size: 36px;
+line-height: 30px;
+text-transform: capitalize;
+color: #363853;
+text-align: center;
+margin-top: 100px;
+}
+.mavzu span{
+    color:  #FF7A50;
+}
+
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.client{
+    margin-top: 100px;
+    font-weight: 500;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.5px;
+color: #363853;
+text-align: center;
+}
+
+.client span{
+    color: #FF7A50;
+}
+
+.laptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.laptop h6{
+    font-weight: 400;
+font-size: 20px;
+line-height: 45px;
+letter-spacing: 0.5px;
+color: #363853;
+}
+
+.laptop span{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #FF7A50;
+}
+.laptop p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #AAAAAA;
+}
+
+.laptop div{
+    margin-left: 50px;
+}
