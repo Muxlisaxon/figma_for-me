@@ -1,21 +1,25 @@
-nav{
+body{
+    background: linear-gradient(113.59deg, rgba(239, 239, 239, 0) -2.01%, rgba(239, 239, 239, 0.2) 103.74%);
+    backdrop-filter: blur(388.5px);
+}
+nav {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
 }
-.list{
+.list {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
-.search{
+.search {
     margin-left: 40px;
 }
-.buy{
+.buy {
     margin-left: 40px;
 }
-.btn{
+.btn {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -26,40 +30,36 @@ nav{
     border: none;
     margin-left: 150px;
 }
-.btn1{
+.btn1 {
     margin-top: 40px;
     font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
-color: #FFFFFF;
-padding: 14px 28px;
-background: #FF7A50;
-border: none;
-border-radius: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    background: #FF7A50;
+    border: none;
+    border-radius: 8px;
 }
-
-.guy{
+.guy {
     width: 100%;
     margin-top: 20px;
 }
-.one{
+.one {
     margin-top: 160px;
 }
-
-.one h1 span{
+.one h1 span {
     color: #FF7A50;
 }
-
-.one div{
+.one div {
     display: flex;
     align-items: center;
 }
-
-.one button{
+.one button {
     width: 163px;
 }
-.open{
+.open {
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -74,66 +74,83 @@ border-radius: 8px;
     box-shadow: 1px 1px 3px gray;
     border: none;
 }
-.open:hover{
+.open:hover {
     background: #FF7A50;
 }
-.buttons{
+.buttons {
     /* display: flex;
     align-items: center;
     justify-content: space-between; */
     margin-top: 40px;
     gap: 10px;
 }
-.buttons div{
+.buttons div {
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
-.buttons div img{
+.buttons div img {
     margin-left: 20px;
 }
-.buttons div p{
+.buttons div p {
     color: black;
     margin-top: 10px;
     margin-right: 10px;
 }
-.big-box{
+.big-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
     gap: 20px;
 }
-.num1{
+.num1 {
     box-shadow: 2px 2px 5px grey;
     /* width: 100%; */
     width: 208px;
     height: 279px;
 }
-.cls1{
+.cls1 {
     text-align: center;
     margin: 20px;
+    margin-top: 28px;
 }
-.cls2{
-    text-align: center;
-    margin-top: 50px;
-}
-.alis{
+.alis {
     width: 50%;
- margin-left: 50px;
+    margin-left: 50px;
 }
-.info{
-    margin-top: 12px;
+.infom{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #363853;
+}
+.new{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #363853;
+margin-top: 9px;
+}
+.info {
+    margin-top: 80px;
+    font-family: 'Rubik';
     font-style: normal;
-font-weight: 700;
-font-size: 24px;
-text-align: center;
-color: #041A3F;
-flex: none;
-order: 0;
-flex-grow: 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;    
+    text-transform: capitalize;    
+    color: #363853;
+    text-align: center;   
 }
-.kirish{
+.info span{
+    color: #FF7A50;
+}
+.kirish {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -143,142 +160,268 @@ flex-grow: 0;
     background: #FF7A50;
     border-radius: 8px;
     border: none;
+    margin-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.one p{
+.cute{
+ margin-left: 500px;
+ padding-top: 50px;
+}
+.ending {
+    width: 1170px;
+    height: 333px;
+    background: #FF7A50;
+    border-radius: 20px;
+}
+.ending h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.ending p {
     font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.mb-3 {
+    width: 600px;
+    margin: auto;
+    border-radius: 70px;
+}
+.oq_div {
+    background: #FFFFFF;
+    box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.07);
+    border-radius: 70px;
+    display: flex;
+    gap: 410px;
+    width: 838px;
+    height: 78px;
+    margin: auto;
+}
+.blue {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #363853;
+    opacity: 0.9;
+    margin: auto;
+}
+.sariq_div {
+    background: #FF7A50;
+    border-radius: 70px;
+    display: flex;
+    width: 191px;
+    height: 50px;
+    /* margin: auto; */
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.tel {
+    width: 14px;
+    height: 14px;
+    margin-top: 17px;
+    /* margin-right: 5px;  */
+}
+.sub {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+.divcha{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    /* margin: auto;
+    margin-bottom: 10px; */
+}
+.fa-telegram{
+    margin-left: 20px;
+    color: #fff;
+}
+.imo{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 66px;
+line-height: 78px;
 text-transform: capitalize;
 color: #363853;
 }
-    .al span{
-        font-size: 36px;
-line-height: 50px;
-text-transform: capitalize;
-color: #FF7A50;
-    } 
-    .inforum{
-        margin-top: 200px;
-    }
-    
-.bir{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-}   
-.ikki{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-}  
-.btn2{
+.one p {
     font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+}
+.al span {
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FF7A50;
+}
+.inforum {
+    margin-top: 150px;
+    padding-left: 40px;
+}
+.more{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-text-align: center;
 color: #FFFFFF;
-padding: 21px 12px;
+padding: 17px 44px;
 background: #FF7A50;
-border-radius: 5px;
+box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+border-radius: 30px 30px 1px 30px;
 border: none;
-} 
-.app{
+margin-top: 50px;
+}
+.bir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.ikki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.btn2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 21px 12px;
+    background: #FF7A50;
+    border-radius: 5px;
+    border: none;
+}
+.app {
     margin-left: 30px;
 }
-.clock{
+.clock {
     display: flex;
     margin-top: 20px;
 }
-.pq{
+.pq {
     font-weight: 400;
-font-size: 20px;
-line-height: 30px;
-color: #363853;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
 }
-.mavzu{
-font-weight: 500;
-font-size: 36px;
-line-height: 30px;
-text-transform: capitalize;
-color: #363853;
-text-align: center;
-margin-top: 100px;
+.mavzu {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #363853;
+    text-align: center;
+    margin-top: 100px;
 }
-.mavzu span{
-    color:  #FF7A50;
+.mavzu span {
+    color: #FF7A50;
 }
-
-.mobile{
+.mobile {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 100px;
 }
-
-
-.client{
-    margin-top: 100px;
-    font-weight: 500;
-font-size: 36px;
-line-height: 43px;
-letter-spacing: 0.5px;
-color: #363853;
-text-align: center;
+.mobile div p{
+    margin-top: 30px;
 }
-
-.client span{
+.clien{
+    font-weight: 500;
+    line-height: 43px;
+    color: #363853;
+    margin-left: 500px;
+    text-align: center;
+}
+.clien span {
     color: #FF7A50;
 }
-
-.laptop{
+.laptop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 40px;
 }
-
-.laptop h6{
+.laptop h6 {
     font-weight: 400;
-font-size: 20px;
-line-height: 45px;
-letter-spacing: 0.5px;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.5px;
+    color: #363853;
+}
+.laptop span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7A50;
+}
+.laptop p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #AAAAAA;
+}
+.laptop div {
+    margin-left: 50px;
+}
+.top{
+    font-weight: 500;
+font-size: 33px;
+line-height: 80px;
+letter-spacing: 0.05em;
 color: #363853;
 }
-
-.laptop span{
-    font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #FF7A50;
+.top span{
+    color: #FF7A50;
 }
-.laptop p{
-    font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-color: #AAAAAA;
+/* .latest {
+    align-items: center;
+    justify-content: space-between;
+} */
+.latest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.laptop div{
-    margin-left: 50px;
+.latest2 div p{
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.latest2{
+    align-items: center;
+}
+.aaaa{
+    margin-left: 30px;
+}
+.pppp{
+    margin-left: 30px;
+}
+.play_market{
+    margin-top: 30px;
+}
+.apple{
+    margin-top: 30px;
 }
